@@ -36,7 +36,7 @@ kiwisolver==1.0.1
 librosa==0.6.2
 llvmlite==0.25.0
 Markdown==3.0.1
-MarkupSafe==1.0
+MarkupSafe==1.1.0
 matplotlib==3.0.0
 mccabe==0.6.1
 mistune==0.8.4
