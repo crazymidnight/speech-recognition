@@ -1,0 +1,11 @@
+[flake8]
+
+ignore = C812, I001, T001, I100, I101, I202, I003
+
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,front,venv
+
+max-line-length = 79
+
+import-order-style = pep8
+
+inline-quotes = "
