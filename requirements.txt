@@ -1,4 +1,4 @@
-absl-py==0.6.0
+absl-py==0.6.1
 appdirs==1.4.3
 astor==0.7.1
 attrs==18.2.0
