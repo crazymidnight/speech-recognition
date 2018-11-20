@@ -48,7 +48,7 @@ numba==0.40.1
 numpy==1.15.4
 pandocfilters==1.4.2
 parso==0.3.1
-pbr==5.1.0
+pbr==5.1.1
 pexpect==4.6.0
 pickleshare==0.7.5
 prometheus-client==0.4.2
