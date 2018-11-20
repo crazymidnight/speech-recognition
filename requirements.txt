@@ -69,7 +69,7 @@ Send2Trash==1.5.0
 simplegeneric==0.8.1
 six==1.11.0
 tb-nightly==1.13.0a20181119
-tensorboard==1.11.0
+tensorboard==1.12.0
 tensorflow-estimator==1.10.12
 termcolor==1.1.0
 terminado==0.8.1
