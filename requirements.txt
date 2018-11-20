@@ -58,8 +58,8 @@ ptyprocess==0.6.0
 pycodestyle==2.4.0
 pyflakes==2.0.0
 Pygments==2.2.0
-pyparsing==2.3.0
-python-dateutil==2.7.3
+pyparsing==2.2.2
+python-dateutil==2.7.5
 pyzmq==17.1.2
 qtconsole==4.4.3
 resampy==0.2.1
