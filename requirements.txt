@@ -11,5 +11,6 @@ MarkupSafe==1.1.0
 mccabe==0.6.1
 pycodestyle==2.4.0
 pyflakes==2.0.0
+python-dotenv==0.9.1
 toml==0.10.0
 Werkzeug==0.14.1
