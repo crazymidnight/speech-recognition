@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    {% if title %}
+    <title>{{ title }} - Speech Recognition Systems</title>
+    {% else %}
+    <title>Welcome to Speech Recognition Systems</title>
+    {% endif %}
+</head>
+
+<body>
+    <div>Speech Recognition System: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
