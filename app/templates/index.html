@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
 
-<head>
-    <meta charset="utf-8">
-    <title>{{ title }} - Speech Recognition Systems</title>
-</head>
-
-<body>
-    <h1>Welcome to Speech Recognition Systems site</h1>
-</body>
-
-</html>
+{% block content %}
+<h1>Hi, {{ user.username }}!</h1>
+{% endblock %}
