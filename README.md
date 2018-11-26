@@ -1,4 +1,4 @@
-# Speech recognition  [![CircleCI](https://circleci.com/gh/crazymidnight/mvsr/tree/master.svg?style=svg](https://circleci.com/gh/crazymidnight/mvsr/tree/master)
+# Speech recognition  [![CircleCI](https://circleci.com/gh/crazymidnight/speech-recognition.svg?style=svg)](https://circleci.com/gh/crazymidnight/speech-recognition)
 
 ## About
 Implementation of multiple voices speech recognition based on deep learning and web technologies.
