@@ -2,7 +2,7 @@
 
 ignore = C812, I001, T001, I100, I101, I202, I003, F401, E402
 
-exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,front,venv
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,front,venv,migrations
 
 max-line-length = 79
 
