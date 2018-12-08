@@ -15,3 +15,6 @@ Implementation of multiple voices speech recognition based on deep learning and 
 2. Activate virtual environment. Unix-like system: ```source venv/bin/activate```. Windows: ```.\venv\Scripts\activate\```
 3. Install dependencies: ```pip install -r requirements.txt```
 4. Run application: ```flask run```
+
+## Preview
+![Index page](images/speech-recognition-index-page.png)
