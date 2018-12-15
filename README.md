@@ -18,3 +18,6 @@ Implementation of multiple voices speech recognition based on deep learning and 
 
 ## Preview
 ![Index page](images/speech-recognition-index-page.png)
+![Log In page](images/speech-recognition-login-page.png)
+![Main page](images/speech-recognition-recordings-page.png)
+![Main page](images/speech-recognition-selected-recording.png)
