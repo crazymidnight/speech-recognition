@@ -1,19 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <h1>Transform your speech into text easily!</h1>
+    <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions"></vue-dropzone>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import vue2Dropzone from 'vue2-dropzone'
+  import 'vue2-dropzone/dist/vue2Dropzone.min.css'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    components: {
+      vueDropzone: vue2Dropzone,
+    },
+    data: function () {
+      return {
+        dropzoneOptions: {
+          url: 'http://localhost:8000/post',
+          thumbnailWidth: 150,
+          maxFilesize: 500,
+          headers: { "My-Awesome-Header": "header value" },
+          acceptedFiles: ".wav",
+
+        }
+      }
+
+    }
   }
-}
 </script>
 
 <style>
