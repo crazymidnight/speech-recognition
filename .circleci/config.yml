@@ -37,7 +37,7 @@ jobs:
       - run:
           name: install frontend dependencies
           command: |
-            cd frontend && yarn
+            yarn
             yarn build
 
       - save_cache:

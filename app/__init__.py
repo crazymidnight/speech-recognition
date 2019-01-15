@@ -5,7 +5,7 @@ from flask_migrate import Migrate
 
 from .client_app import client_bp
 
-app = Flask(__name__, static_folder="../frontend/dist/")
+app = Flask(__name__, static_folder="../dist/")
 app.register_blueprint(client_bp)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
