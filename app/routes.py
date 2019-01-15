@@ -1,13 +1,11 @@
-from flask import render_template
+from flask import current_app, send_file, render_template
+import os
 from app import app
 
 
 @app.route("/")
 @app.route("/index")
 def index():
-    return """
-    <h1>Coming soon.</h1>
-    <hr>
-    <div><a href="https://github.com/crazymidnight/speech-recognition">
-    Visit project github page.</div>
-    """
+    dist_dir = current_app.config['DIST_DIR']
+    entry = os.path.join(dist_dir, "index.html")
+    return send_file(entry)
