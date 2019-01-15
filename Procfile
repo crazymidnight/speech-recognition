@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: yarn build && gunicorn app:app
