@@ -6,6 +6,6 @@ from app import app
 @app.route("/")
 @app.route("/index")
 def index():
-    dist_dir = current_app.config['DIST_DIR']
+    dist_dir = current_app.config["DIST_DIR"]
     entry = os.path.join(dist_dir, "index.html")
     return send_file(entry)
