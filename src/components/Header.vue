@@ -1,37 +1,43 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+    <header>
+      <a href="/">
+        <img src="../assets/logo.png" alt="Logo" class="logo">
+      </a>
+      <a href="/" class="header-text">Speech Recognition</a>
+    </header>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'HelloWorld',
-    props: {
-      msg: String
-    }
-  }
+export default {
+  name: "Header",
+  props: {}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+header {
+  background: #17005a;
+  height: 88px;
+  display: flex;
+  flex-direction: row;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.logo {
+  width: 128px;
+  line-height: 88px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.header-text {
+  font-size: 30px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 88px;
+  margin-left: 10px;
 }
 </style>
