@@ -4,7 +4,18 @@
     <div id="upload">
       <h1>Transform your speech into text easily!</h1>
       <br>
-      <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions"></vue-dropzone>
+      <vue-dropzone ref="myVueDropzone" id="dropzone"
+                    :options="dropzoneOptions"
+                    @vdropzone-success="uploadSuccess"
+      >
+      </vue-dropzone>
+    </div>
+    <div id="result">
+      <h2>Result:</h2>
+      <br>
+      <div id="text">
+        <p>{{text ? text : "Please, upload audio file"}}</p>
+      </div>
     </div>
   </div>
 </template>
@@ -13,6 +24,7 @@
 import Header from "./components/Header.vue";
 import vue2Dropzone from "vue2-dropzone";
 import "vue2-dropzone/dist/vue2Dropzone.min.css";
+
 
 export default {
   name: "app",
@@ -23,14 +35,21 @@ export default {
   data: function() {
     return {
       dropzoneOptions: {
-        url: "http://localhost:8000/post",
+        url: "http://localhost:5000/api/recognize/",
         thumbnailWidth: 150,
         maxFilesize: 500,
         headers: { "My-Awesome-Header": "header value" },
-        acceptedFiles: ".wav"
-      }
+        acceptedFiles: ".wav",
+        addRemoveLinks: true,
+      },
+      text: "",
     };
-  }
+  },
+  methods: {
+    uploadSuccess(file, response) {
+      this.text = response
+    }
+  },
 };
 </script>
 
@@ -53,7 +72,16 @@ h1 {
   margin-top: 200px;
 }
 #dropzone {
-  width: 20%;
+  width: 50%;
+}
+#result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#text {
+  width: 50%;
+  border-style: solid;
 }
 html {
   font-family: Helvetica;
