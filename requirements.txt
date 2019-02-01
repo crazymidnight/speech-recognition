@@ -18,7 +18,7 @@ pycodestyle==2.5.0
 pyflakes==2.1.0
 python-dateutil==2.7.5
 python-dotenv==0.10.1
-python-editor==1.0.3
+python-editor==1.0.4
 six==1.12.0
 SQLAlchemy==1.2.17
 toml==0.10.0
