@@ -3,7 +3,7 @@ appdirs==1.4.3
 attrs==18.2.0
 black==18.9b0
 Click==7.0
-flake8==3.7.5
+flake8==3.7.6
 Flask==1.0.2
 Flask-Migrate==2.4.0
 Flask-SQLAlchemy==2.3.2
