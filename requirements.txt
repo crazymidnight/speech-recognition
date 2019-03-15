@@ -1,7 +1,7 @@
 alembic==1.0.8
 appdirs==1.4.3
 attrs==19.1.0
-black==18.9b0
+black==19.3b0
 Click==7.0
 flake8==3.7.7
 Flask==1.0.2
