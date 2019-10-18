@@ -1,7 +1,10 @@
 # Speech recognition  [![CircleCI](https://circleci.com/gh/crazymidnight/speech-recognition.svg?style=svg)](https://circleci.com/gh/crazymidnight/speech-recognition)
 
 ## About
-Implementation of multiple voices speech recognition based on deep learning and web technologies.
+Implementation of speech recognition service based on deep learning and web technologies.
+
+## Supported languages
+Now only English is supported.
 
 ## Technology stack
 1. Frontend: [Vue](https://github.com/vuejs/vue)
@@ -16,7 +19,7 @@ Implementation of multiple voices speech recognition based on deep learning and 
 3. Install dependencies: ```pip install -r requirements.txt```
 4. Run application: ```flask run```
 
-## Preview
+## Mockups (not implemented yet)
 ![Index page](images/speech-recognition-index-page.png)
 ![Log In page](images/speech-recognition-login-page.png)
 ![Main page](images/speech-recognition-recordings-page.png)
