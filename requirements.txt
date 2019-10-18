@@ -1,6 +1,6 @@
 alembic==1.2.1
 appdirs==1.4.3
-attrs==19.1.0
+attrs==19.3.0
 black==19.3b0
 Click==7.0
 flake8==3.7.8
