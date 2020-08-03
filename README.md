@@ -1,4 +1,4 @@
-# Speech recognition  [![CircleCI](https://circleci.com/gh/crazymidnight/speech-recognition.svg?style=svg)](https://circleci.com/gh/crazymidnight/speech-recognition)
+# Speech recognition
 
 ## About
 Implementation of speech recognition service based on deep learning and web technologies.
